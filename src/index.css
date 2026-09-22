@@ -1,0 +1,210 @@
+/* GENERAL */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #212529;
+  background: #ffffff;
+}
+
+
+/* NAVBAR  */
+
+.portfolio-navbar {
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.brand-highlight {
+  color: #0d6efd;
+}
+
+
+/* HERO */
+
+.hero-section {
+  min-height: 88vh;
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 90px 0;
+
+  color: white;
+
+  background:
+    linear-gradient(
+      135deg,
+      #0d6efd 0%,
+      #6610f2 100%
+    );
+}
+
+.highlight {
+  color: #ffd43b;
+}
+
+.profile-card {
+  padding: 40px 25px;
+
+  border-radius: 25px;
+
+  background:
+    rgba(255, 255, 255, 0.12);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.25);
+
+  backdrop-filter: blur(10px);
+}
+
+.profile-circle {
+  width: 180px;
+  height: 180px;
+
+  margin: auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: white;
+
+  color: #0d6efd;
+
+  font-size: 60px;
+
+  font-weight: bold;
+
+  border:
+    8px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* SECTIONS */
+
+.section-padding {
+  padding: 90px 0;
+}
+
+.section-title {
+  font-weight: 800;
+
+  margin-bottom: 15px;
+}
+
+
+/* PROJECT CARDS */
+
+.project-card {
+  overflow: hidden;
+
+  border-radius: 16px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 15px 35px
+    rgba(0, 0, 0, 0.15) !important;
+}
+
+.project-banner {
+  height: 140px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #212529,
+      #0d6efd
+    );
+
+  color: white;
+
+  font-size: 65px;
+
+  font-weight: bold;
+}
+
+
+/* SKILLS */
+
+.progress {
+  height: 12px;
+}
+
+
+/* STATISTICS*/
+
+.stats-section {
+  padding: 70px 0;
+
+  background: #212529;
+
+  color: white;
+}
+
+.stat-number {
+  font-size: 50px;
+
+  font-weight: 800;
+}
+
+
+/*FOOTER*/
+
+.footer {
+  padding: 40px 0;
+
+  background: #111827;
+
+  color: #d1d5db;
+}
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 768px) {
+
+  .hero-section {
+    min-height: auto;
+
+    padding: 70px 0;
+
+    text-align: center;
+  }
+
+  .display-3 {
+    font-size: 42px;
+  }
+
+  .profile-circle {
+    width: 150px;
+    height: 150px;
+
+    font-size: 48px;
+  }
+
+  .section-padding {
+    padding: 60px 0;
+  }
+
+}
